@@ -14,7 +14,7 @@ public class Obstacle {
 	}
 
 	public boolean IsDestructible(){
-		return isDestructible();
+		return isDestructible;
 	}
 
 	public char Icon(){
