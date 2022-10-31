@@ -7,6 +7,7 @@ public class ReadFromFile {
 	public static void main(String[] args) {
 
 		File file = new File("test.txt");
+		File fileArr[] = new File[20];
 		try {
 
 			Scanner sc = new Scanner(file);
